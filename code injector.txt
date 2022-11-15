@@ -1,0 +1,121 @@
+CODE INJECTOR
+--------------------------------------------------
+
+// Type your JavaScript code here.
+document.querySelector("video")? document.querySelector("video").parentNode.classList.remove("max-w-4xl") : null;
+    document.onkeypress = function(e){
+    e = e;
+    if(e.key==="k"){
+        let clickPlay = document.querySelector('video');
+        if(clickPlay.paused){
+            clickPlay.play();
+        }
+        else{
+            clickPlay.pause();
+        }
+    }
+    if(e.key==="f"){
+        let fScreenTogg = document.querySelector('video');
+        if(fScreenTogg.requestFullscreen){
+            fScreenTogg.requestFullscreen();
+        }
+    }
+    if(e.key==="j"){
+        let ved_dur = document.querySelector('video');
+        let currDur = ved_dur.currentTime;
+        ved_dur.currentTime = currDur-10;
+    }
+    if(e.key==="l"){
+        let ved_dur = document.querySelector('video');
+        let currDur = ved_dur.currentTime;
+        ved_dur.currentTime = currDur+10;
+    }
+    if(e.key=="1"){
+        let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 1.0;
+    }
+    if(e.key=="2"){
+        let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 2.0;
+    }
+    if(e.key=="3"){
+        let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 3.0;
+    }
+    if(e.key=="4"){
+        let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 4.0;
+    }
+    if(e.key=="5"){
+        let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 5.0;
+    }
+    if(e.key=="6"){
+        let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 6.0;
+    }
+    if(e.key=="7"){
+        let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 7.0;
+    }
+    if(e.key=="8"){
+        let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 8.0;
+    }
+    if(e.key=="9"){
+        let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 9.0;
+    }
+    if(e.key=="0"){
+       let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 0.5;
+    }
+    if(e.key=="z"){
+       let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 1.5;
+    }
+    if(e.key=="x"){
+       let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 2.5;
+    }
+    if(e.key=="c"){
+       let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 3.5;
+    }
+    if(e.key=="v"){
+       let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 4.5;
+    }
+    if(e.key=="b"){
+       let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 5.5;
+    }
+    if(e.key=="n"){
+       let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 6.5;
+    }
+    if(e.key=="m"){
+       let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 7.5;
+    }
+    if(e.key==","){
+       let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 8.5;
+    }
+    if(e.key=="."){
+       let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 9.5;
+    }
+    if(e.key=="/"){
+       let ved_dur = document.querySelector('video');
+        ved_dur.playbackRate = 10.5;
+    }
+
+
+    function rewind(){
+        var ved_dur = document.querySelector('video');
+        let currDur = ved_dur.currentTime;
+        ved_dur.currentTime = currDur-5;
+    }
+
+}
